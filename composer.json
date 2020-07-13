@@ -1,0 +1,19 @@
+{
+    "name": "eduardo/ws-pawy",
+    "type": "project",
+    "authors": [
+        {
+            "name": "eduardo098",
+            "email": "l.loge980708@itses.edu.mx"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DBC\\": "utils",
+            "AUTH\\": "utils"
+        }
+    }
+}
